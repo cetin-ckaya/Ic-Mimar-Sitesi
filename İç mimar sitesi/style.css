@@ -1,0 +1,65 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+header{
+    margin: 32px;
+}
+h1{
+    display: inline-block;
+    font-weight: 300;
+}
+.links{
+    display: inline-block;
+}
+.links li{
+    display: inline-block;
+}
+.links a{
+    margin: 0px 8px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.active{
+    border-bottom: 1px solid black;
+}
+.card{
+    display: inline-block;
+    width: 49%;
+    padding: 16px;
+    box-sizing: border-box;
+}
+.card img{
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+.card h2{
+    font-weight: 300;
+    margin: 8px 0px 16px 0px;
+}
+.card img:hover{
+    opacity: 0.9;
+}
+.why{
+    width: 50%;
+    margin: 100px 200px;
+}
+.banner{
+    font-size: 20px;
+    font-weight: 300;
+    font-style: italic;
+}
+.message{
+    color: red;
+    font-size: 40px;
+    font-style: italic;
+    margin-top: 0px;
+    border-bottom: 1px solid black;
+    padding-bottom: 8px;
+}
+.contact p{
+    margin: 0px;
+    font-weight: 600;
+}
